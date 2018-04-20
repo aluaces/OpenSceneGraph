@@ -529,7 +529,7 @@ void TriStripVisitor::stripify(Geometry& geom)
         geom.setPrimitiveSetList(new_primitives);
 
         #if 0
-        // debugging code for indentifying the tri-strips.
+        // debugging code for identifying the tri-strips.
                 osg::Vec4Array* colors = new osg::Vec4Array(new_primitives.size());
                 for(i=0;i<colors->size();++i)
                 {
